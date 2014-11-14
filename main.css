@@ -74,13 +74,15 @@
 	color: #FFFFFF;
 	font-family: Verdana, Arial, sans-serif;
 	opacity: 0.5;
-	
+	margin: auto;
+
 }
 
 .box {
 	height: 100px;
 	width: 100px;
 	display: inline-block;
+	margin: auto;
 }
 
 #red {
