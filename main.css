@@ -65,24 +65,24 @@
 	margin-bottom: 13px;
 }
 
-.boxes {
+.box {
 	height: 100px;
 	width: 100px;
 	display: inline-block;
 }
 
 #red {
-	color: red;
+	background-color: red;
 }
 
 #blue {
-	color: blue;
+	background-color: blue;
 }
 
 #yellow {
-	color: yellow;
+	background-color: yellow;
 }
 
 #green {
-	color: green;
+	background-color: green;
 }
