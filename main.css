@@ -9,14 +9,23 @@
 	text-transform: uppercase;
 }
 
+.nav li {
+	display: inline;
+}
+
 .jumbotron {
 	height: 500px;
 	background: url('http://www.thebraiser.com/wp-content/uploads/gallery/zimmern-at-incanto/zimmern-1.jpg') no-repeat center center fixed;
 	background-size: cover;
 }
 
+.jumbotron .container {
+	position: relative;
+	top: 100px;
+}
+
 .jumbotron h1 {
-	color: yellow;
+	color: #F7F7F7;
 	font-size: 48px;
 	font-weight: bold;
 	font-family: 'Shift', sans-serif;
@@ -25,4 +34,18 @@
 .jumbotron p {
 	color: white;
 	font-size: 12px;
+}
+
+.learn-more {
+	background-color: #F7F7F7;
+}
+
+.learn-more h3 {
+	font-family: 'Shift', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.learn-more a {
+	color: #00b0FF;
 }
