@@ -49,3 +49,18 @@
 .learn-more a {
 	color: #00b0FF;
 }
+
+.city-guides {
+	background: #efefef;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.city-guides h2 {
+	color: #393C3D;
+	font-size: 24px;
+}
+
+.city-guides p {
+	font-size: 15px;
+	margin-bottom: 13px;
+}
