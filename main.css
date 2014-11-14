@@ -64,3 +64,25 @@
 	font-size: 15px;
 	margin-bottom: 13px;
 }
+
+.boxes {
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+}
+
+#red {
+	color: red;
+}
+
+#blue {
+	color: blue;
+}
+
+#yellow {
+	color: yellow;
+}
+
+#green {
+	color: green;
+}
