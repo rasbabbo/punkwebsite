@@ -1,3 +1,3 @@
-// $(document).ready(function() {
-// 	$('#green').fadeOut(1000);
-// });
+$(document).ready(function() {
+	$('#green').fadeOut(1000);
+});
