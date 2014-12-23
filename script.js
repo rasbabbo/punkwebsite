@@ -1,5 +1,10 @@
 $(document).ready(function() {
-	$('.box').fadeOut(1000);
+	$('.box').click(function() {
+		$('.box').fadeOut('slow');
+	});
+	$('box').click(function() {
+		$('.box').fadeIn('slow');
+	});
 });
 // $(document).ready(function() {
 // 	$('.box').slideDown('slow');
