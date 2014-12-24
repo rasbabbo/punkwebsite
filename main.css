@@ -85,11 +85,18 @@
 	font-family: arial;
 	font-weight: bold;
 	color: #ffffff;
+	border-spacing: 5px;
 	border-radius: 5px;
 	text-align: center;
 	margin-top: 2px;
 }
 
+.todo {
+	border-width: 50px;
+	border-style: solid;
+	text-align: center;
+
+}
 .list {
 	font-family: garamond;
 	color: #cc0000;
