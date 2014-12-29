@@ -29,11 +29,16 @@ $(document).ready(function() {
 	});
 });
 
+//making thumbnails expand and contract
 $(document).ready(function() {
 	$('.thumbnail').hover(function() {
 		$(this).closest(".thumbnail").css("z-index", 1);
 		$(this).animate({height: "400", width: "400"}, "fast");
+	}, function() {
+		$(this).closest(".thumbnail").css("z-index", 0);
+		$(this).animate({height: "200", width: "200"}, "fast");
 	});
+
 });
 
 $(document).ready(function() {
