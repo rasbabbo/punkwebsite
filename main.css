@@ -102,6 +102,11 @@
 	color: #cc0000;
 }
 
+.thumbnail {
+	width:200px;
+	height: 200px;
+}
+
 .box {
 	height: 100px;
 	width: 100px;
