@@ -33,5 +33,18 @@ $(document).ready(function() {
 	$('.thumbnail').hover(function() {
 		$(this).closest(".thumbnail").css("z-index", 1);
 		$(this).animate({height: "400", width: "400"}, "fast");
-	})
-})
+	});
+});
+
+$(document).ready(function() {
+	$('input').focus(function() {
+		$(this).css("outline-color", 'FF0000');
+	});
+});
+
+
+
+
+
+
+
