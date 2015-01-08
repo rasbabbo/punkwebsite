@@ -84,6 +84,18 @@ $(document).ready(function() {
 
 // console.log(reverse("buttficker"));
 
+// //palindrome checker:
+// function paliChecker(word) {
+//   var flip = word.split("").reverse().join("");
+  
+//   if (flip === word)
+//     console.log("palindrome!");
+//    else
+//      console.log("nope");
+// }
+
+// paliChecker("radr");
+
 
 
 
