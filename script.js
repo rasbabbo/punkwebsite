@@ -76,6 +76,13 @@ $(document).ready(function() {
 // document.getElementById("result").innerHTML = num1 / num2;
 // }
 
+// //string(or anything reversal)
+// function reverse(n) {
+//   n = n + "";
+//   return n.split("").reverse().join("");
+// }
+
+// console.log(reverse("buttficker"));
 
 
 
